@@ -1,0 +1,132 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/libcsv-x64-windows-3.0.3#1-6308ee3b-5ee8-4da0-9fe6-f490e45196ca",
+  "name": "libcsv:x64-windows@3.0.3#1 937df7734cabca9d1367e472ae8be0bf01dd437417b354953e0b009262279c5b",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2024-12-09-1005b78fa1bf1dde1a20c2734cba4ea61ca94d9a"
+    ],
+    "created": "2024-12-20T14:57:56Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "libcsv",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "3.0.3#1",
+      "downloadLocation": "git+https://github.com/microsoft/vcpkg@936ce0ff18976c35cec212d25fbcc143dafd7b6b",
+      "homepage": "https://github.com/rgamble/libcsv",
+      "licenseConcluded": "GPL-2.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "CSV parser and writer library",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "libcsv:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "937df7734cabca9d1367e472ae8be0bf01dd437417b354953e0b009262279c5b",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "GPL-2.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-0",
+      "name": "rgamble/libcsv",
+      "downloadLocation": "git+https://github.com/rgamble/libcsv@b1d5212831842ee5869d99bc208a21837e4037d5",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "2e6ea0b68768d502e9bdb3bb801a1eb64b7fb0010a5006dec1b36a0fe705ec717560ec91f586572654c015db1f0d3a6e804dbcaa666a419192e93820b2c5e891"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./C:/Users/rcilla/AppData/Local/vcpkg/registries/git-trees/936ce0ff18976c35cec212d25fbcc143dafd7b6b/Makefile.patch",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "17ba312bbe4334b0d2ffb98895f27f1f911b04bbf3f7a7fed1332b427560890e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/rcilla/AppData/Local/vcpkg/registries/git-trees/936ce0ff18976c35cec212d25fbcc143dafd7b6b/portfile.cmake",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4b7145b71dc46d37395b1f3214c3284bf7341458ba801300031195c86b16ac24"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/rcilla/AppData/Local/vcpkg/registries/git-trees/936ce0ff18976c35cec212d25fbcc143dafd7b6b/vcpkg.json",
+      "SPDXID": "SPDXRef-file-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c61cc6c3959d84600e86aada2806395461a1999c8a33a55bd3f4bc0ee27c2871"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

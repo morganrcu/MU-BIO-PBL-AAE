@@ -1,0 +1,15 @@
+x64-windows/
+x64-windows/debug/
+x64-windows/debug/lib/
+x64-windows/debug/lib/csv.lib
+x64-windows/include/
+x64-windows/include/csv.h
+x64-windows/lib/
+x64-windows/lib/csv.lib
+x64-windows/share/
+x64-windows/share/libcsv/
+x64-windows/share/libcsv/copyright
+x64-windows/share/libcsv/man3/
+x64-windows/share/libcsv/man3/csv.3
+x64-windows/share/libcsv/vcpkg.spdx.json
+x64-windows/share/libcsv/vcpkg_abi_info.txt
