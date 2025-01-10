@@ -23,7 +23,7 @@ Biltegi hau `vcpkg` eta `libcsv` (CSV fitxategiak irakurtzeko) erabiltzeko aurre
     git clone https://github.com/[Zure GitHub Erakundea]/[Zure Biltegiaren Izena].git
     ```
 
-3.  **Ez da konfigurazio gehiago behar:** Beharrezkoak diren liburutegiak (`libcsv` eta `gtest`) `vcpkg` erabiliz aurrez konfiguratuta daude. Ez da konfigurazio gehiago behar hirugarren liburutegiak instalatzeko.
+3.  **Ez da konfigurazio gehiago behar:** Beharrezkoak diren liburutegiak (`libcsv` ) `vcpkg` erabiliz aurrez konfiguratuta daude. Ez da konfigurazio gehiago behar hirugarren liburutegiak instalatzeko.
 
 ## Konpilazio Argibideak
 
