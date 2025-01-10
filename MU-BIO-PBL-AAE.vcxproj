@@ -129,7 +129,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>pointreader.obj;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:\Users\rcilla\source\repos\MU-BIO-PBL-AAE\MU-BIO-PBL-AAE\x64\Debug</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>

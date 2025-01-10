@@ -1,7 +1,7 @@
 #include <csv.h>
 #include <stdio.h>
-#include "pointreader.h"
 #include "point.h"
+#include "pointreader.h"
 #include "angularvelocitycalculator.h"
 
 int main(int argc, char ** argv) {
