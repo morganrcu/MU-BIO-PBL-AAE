@@ -60,7 +60,7 @@ Unitate-testak exekutatzeko, jarraitu urrats hauek:
 1.  **Eraiki Test Exekutagarria:** Ziurtatu test-proiektua eraiki duzula. Visual Studio-k test exekutagarria ere eraikiko du proiektua eraikitzean.
 2.  **Exekutatu Testak:** Ireki Visual Studio IDE eta ireki **Test Explorer** panela, eta exekutatu testak IDEko interfaze integratua erabiliz. Bestela, test exekutagarria `build/debug/tests.exe` helbidean exekutatu dezakezu arazketa bertsioa eraiki baduzu, edo `x64/[proiektuaren izena]/tests.exe` helbidean kaleratze eraikuntza bat baduzu terminalean.
 
-## Jarraitzailearen Irteerako Formatua
+## Tracker Irteerako Formatua
 
 Tracker irteerako fitxategia CSV (Komaz Banatutako Balioak) formatuan dago. Lerro bakoitzak datu-puntu bat adierazten du, une zehatz batean. Hona hemen identifikatu dugun egitura (gehitu hau fitxategia alderantziz ingeniarizatu ondoren).
 
