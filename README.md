@@ -1,4 +1,4 @@
-# Kartoizko Errotagailua - Informatika Oinarriak
+# Kartoizko Errotagailua - Informatikako Oinarriak
 
 ## Proiektuaren Deskribapena
 
