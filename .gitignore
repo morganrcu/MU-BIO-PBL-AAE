@@ -361,3 +361,12 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# VCPKG package manager
+vcpkg_installed/
+packages/
+
+# Visual Studio Build Targets
+x64/
+
+MU-BIO-PBL-AAE/x64
