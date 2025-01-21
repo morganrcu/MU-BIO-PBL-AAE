@@ -6,10 +6,12 @@ Proiektu hau 24/25 Ikasturtea Ingeniaritza biomedikako grauda POPBL S1n parte da
 
 ## Taldekideak
 
-*   [1. Taldekidearen Izena] - [GitHub Erabiltzailea]
-*   [2. Taldekidearen Izena] - [GitHub Erabiltzailea]
-*   [3. Taldekidearen Izena] - [GitHub Erabiltzailea]
-*   ... (Gehitu taldekide gehiago behar izanez gero)
+*   [Ainhoa Arnedo Zamorano] - [AinhoaArnedo]
+*   [Jon Ander Aulestiarte Saez de Cerain] - [El Jonan to ciclao]
+*   [Olatz Beitia Akarregi] - [olatzbeitia]
+*   [Ane Güenaga Gonzalez] - [aneguenaga]
+*   [Nahia San Martin Plazaola] - [NahiaSM]
+  
 
 ## Konfigurazio Argibideak
 
