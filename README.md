@@ -6,10 +6,11 @@ Proiektu hau 24/25 Ikasturtea Ingeniaritza biomedikako grauda POPBL S1n parte da
 
 ## Taldekideak
 
-*   [1. Taldekidearen Izena] - [GitHub Erabiltzailea]
-*   [2. Taldekidearen Izena] - [GitHub Erabiltzailea]
-*   [3. Taldekidearen Izena] - [GitHub Erabiltzailea]
-*   ... (Gehitu taldekide gehiago behar izanez gero)
+*   [1. June Senar] - [JuneSenar]
+*   [2. Araitz Cuadrado] - [Aaraaiitzcm]
+*   [3. Aitor Abio] - [Aitor Abio]
+*   [4. Danel Barrutia] - [DanelBarru8]
+*   [5. Nerea Calzada] - [nereacalzada]
 
 ## Konfigurazio Argibideak
 
