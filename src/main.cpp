@@ -4,8 +4,10 @@
 #include "pointreader.h"
 #include "angularvelocitycalculator.h"
 
-int main(int argc, char ** argv) {
-	if (argc != 2) {
+int main(int argc, char** argv)
+{
+	if (argc != 2)
+	{
 		printf("Program to compute maximum angular velocity from a txt file of comma separated values produced by Tracker\n");
 		printf("Usage: %s <filename>\n", argv[0]);
 		return -1;
@@ -14,12 +16,16 @@ int main(int argc, char ** argv) {
 
 	int numberOfPoints = readPoints(argv[1], &points);
 
-	if (numberOfPoints < 0) {
+	if (numberOfPoints < 0)
+	{
 		printf("Error reading file\n");
 		return -1;
 	}
 	float maximumAngularVelocity = computeMaximumAngularVelocity(points, numberOfPoints);
-	
+
+	//Como el video esta grabado en camara lenta, 8 veces mas lento que de normal, multiplicamos por ocho lo calculado
+	maximumAngularVelocity = 8 * maximumAngularVelocity;
+
 	printf("Maximum angular velocity: %f\n", maximumAngularVelocity);
 
 	freePoints(&points);
