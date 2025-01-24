@@ -7,7 +7,7 @@
 int main(int argc, char ** argv) {
 	if (argc != 2) {
 		printf("Program to compute maximum angular velocity from a txt file of comma separated values produced by Tracker\n");
-		printf("Usage: %s <filename>\n", argv[0]);
+		printf("Usage: %s <PBLtracker.txt>\n", argv[0]);
 		return -1;
 	}
 	struct point_t* points;
