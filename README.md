@@ -67,7 +67,14 @@ Tracker irteerako fitxategia CSV (Komaz Banatutako Balioak) formatuan dago. Lerr
 
 | Zutabea    | Datu Mota  | Deskribapena                                                    |
 | ----------- | --------- | -------------------------------------------------------------- |
-| `timestamp` | `float`   | Datu-puntua kapturatu zeneko unea (segundotan).                 |
+| `t` |         `float`   | Datu-puntua kapturatu zeneko unea (segundotan).                 |
 | `x`         | `float`   | Diskoan jarraitutako puntuaren x koordenatua (metrotan).         |
 | `y`         | `float`   | Diskoan jarraitutako puntuaren y koordenatua (metrotan).         |
 | ...         | ...       | (Gehitu beste zutabe batzuk zure aurkikuntzen arabera)          |
+
+## Kodigoaren laburpena
+Lehenik, Tracker programatik ateratako .txt fitxategia irakurtzen da readPoints funtzioan: Funtzio honek tabuladoreekin bereizitako datuak irakurri eta  array batean sartzen ditu eta array horren dimentsioa buetatu egten du (puntu kopurua) dena ondo badoa.
+Gero, computeMaximumAngularVelocity funtzioak puntuak gordetzen dituen array-a nahiz haren puntu kopurua jasotzen ditu, eta puntuen harteko angulu aldaketa denbora aldaketarekin zatituz, abiadura angeluarra kalkulatzen du, eta maximoa bueltatu egiten du.
+Azkenik, freepoints funtzioa puntuak gordetzen zituen array-a askatu egiten du.
+
+
