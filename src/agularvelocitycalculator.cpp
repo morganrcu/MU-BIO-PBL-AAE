@@ -1,27 +1,21 @@
-#include "angularvelocitycalculator.h"
 #include <math.h>
+#include "angularvelocitycalculator.h"
 
 float computeMaximumAngularVelocity(const point_t* points, int numberOfPoints) {
-    if (numberOfPoints < 2) {
-        return 0.0f; // No se puede calcular la velocidad angular con menos de 2 puntos
-    }
+    if (numberOfPoints < 2) return 0.0f; 
 
     float maxAngularVelocity = 0.0f;
+    for (int i = 1; i < numberOfPoints; i++) {
+        float dx = points[i].x - points[i - 1].x;
+        float dy = points[i].y - points[i - 1].y;
+        float dt = points[i].t - points[i - 1].t;
 
-    for (int i = 1; i < numberOfPoints; ++i) {
-        double deltaX = points[i].x - points[i - 1].x;
-        double deltaY = points[i].y - points[i - 1].y;
-        double deltaT = points[i].time - points[i - 1].time;
+        if (dt <= 0) continue; 
 
-        if (deltaT != 0) {
-            float angularVelocity = sqrt(deltaX * deltaX + deltaY * deltaY) / deltaT;
-            if (angularVelocity > maxAngularVelocity) {
-                maxAngularVelocity = angularVelocity;
-            }
+        float angularVelocity = fabs(atan2(dy, dx) / dt);
+        if (angularVelocity > maxAngularVelocity) {
+            maxAngularVelocity = angularVelocity;
         }
     }
-
     return maxAngularVelocity;
 }
-
-
