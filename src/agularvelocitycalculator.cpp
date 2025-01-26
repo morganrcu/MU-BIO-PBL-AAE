@@ -25,14 +25,14 @@
             float deltaTheta = atan2(deltaY, deltaX);
 
             // Calcular la velocidad angular
-            float angularVelocity = fabs(deltaTheta / deltaT);
+            float angularVelocity = deltaTheta/ deltaT;
 
             // Actualizar la velocidad angular máxima
-            if (angularVelocity > maxAngularVelocity) {
+            if (fabs(angularVelocity) > fabs(maxAngularVelocity)) {
                 maxAngularVelocity = angularVelocity;
             }
         }
-
+        
         return maxAngularVelocity;
     }
 

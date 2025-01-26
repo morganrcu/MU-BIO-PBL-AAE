@@ -10,7 +10,7 @@ void freePoints(point_t** points, int numberOfPoints) {
         if (points != NULL) {
             // Liberamos la memoria del array de structs
             free(*points);
-            printf(".");
+        
             // Ponemos el puntero original a NULL para evitar el uso posterior de memoria liberada
             *points = NULL;
         }

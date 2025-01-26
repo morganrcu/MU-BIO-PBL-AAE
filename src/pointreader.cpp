@@ -19,8 +19,6 @@ void cb_field(void* data, size_t len, void* nada) {
 	strncpy(cad_temp, (char*)data, len);
 	cad_temp[len] = '\0';
 	
-	//printf("Row: %d, Col: %d, Val: %s\n", num_rows, col, cad_temp);
-
 	strcpy(*valores_leidos[num_rows][col], cad_temp);
 
 	col++;
@@ -93,8 +91,6 @@ int readPoints(const char* file, point_t** points) {
 					// Añadimos el punto al array de puntos.
 					// Ampliamos el array de puntos para añadir el nuevo punto.
 
-					//printf("Row %d\n", i);
-
 					point_t* temp = (point_t*)realloc(*points, (num_points + 1) * sizeof(point_t));
 
 					*points = temp;
@@ -128,17 +124,11 @@ int read_csv_header() {
 	* Nos da igual la primera fila, ya que no la vamos a utilizar.
 	* También que haya al menos 2 filas.
 	*/
-
-
-	//printf("header row %d\n", num_rows);
-	//printf("header 1 0 %s\n", *valores_leidos[1][0]);
-	//printf("header 1 1 %s\n", *valores_leidos[1][1]);
-	//printf("header 1 2 %s\n", *valores_leidos[1][2]);
-
 	if (num_rows >= 2 && strcmp(*valores_leidos[1][0], "t") == 0 && strcmp(*valores_leidos[1][1], "x") == 0 && strcmp(*valores_leidos[1][2], "y") == 0) {
 		return 0;
 	}
 	else {
 		return 1;
 	}
+	
 }
