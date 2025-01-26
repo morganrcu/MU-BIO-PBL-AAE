@@ -31,7 +31,7 @@ void cb_row(int c, void* points) {
 }
 
 int readPoints(const char* file, point_t** points) {
-	//Read the file and save the data in a point_t array
+	//Lee el fichero y guarda los datos en un array de puntos.
 
 	FILE* fp;
 
