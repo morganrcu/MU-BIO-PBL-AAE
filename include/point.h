@@ -19,4 +19,4 @@ void freePoints(point_t** points);//point_t array-ari esleitutako memoria askatu
 // (point_t hori egiten du).
 // 
 // Typedef erabiliz,point_t kodigoan gehitu daiteke  
-// struct-a lehenik idaztzi barik; hala kodea sinplifikatuz. 
+// struct-a lehenik idaztzi barik; hala kodea sinplifikatuz.
