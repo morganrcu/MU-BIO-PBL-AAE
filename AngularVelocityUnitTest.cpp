@@ -2,7 +2,7 @@
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 #include "angularvelocitycalculator.h"
 
-
+ 
 // KONTZEPTUAN SAKONDUZ: 
 // Unitate-proba softwarearen proba-teknika bat da, non kode-unitaterik txikienak banaka egiaztatzen diren, 
 // hala nola funtzioak, behar bezala funtzionatzen dutela ziurtatzeko. 
