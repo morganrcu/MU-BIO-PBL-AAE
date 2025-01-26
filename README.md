@@ -6,10 +6,11 @@ Proiektu hau 24/25 Ikasturtea Ingeniaritza biomedikako grauda POPBL S1n parte da
 
 ## Taldekideak
 
-*   [1. Taldekidearen Izena] - [GitHub Erabiltzailea]
-*   [2. Taldekidearen Izena] - [GitHub Erabiltzailea]
-*   [3. Taldekidearen Izena] - [GitHub Erabiltzailea]
-*   ... (Gehitu taldekide gehiago behar izanez gero)
+*   [1. June Senar] - [JuneSenar]
+*   [2. Araitz Cuadrado] - [Aaraaiitzcm]
+*   [3. Aitor Abio] - [Aitor Abio]
+*   [4. Danel Barrutia] - [DanelBarru8]
+*   [5. Nerea Calzada] - [nereacalzada]
 
 ## Konfigurazio Argibideak
 
@@ -53,12 +54,6 @@ Proiektua eta test-exekutagarria eraikitzeko, jarraitu urrats hauek:
     ```
     Non `[balioa]` kalkulatutako balioarekin ordezkatuko den.
 
-## Test Argibideak
-
-Unitate-testak exekutatzeko, jarraitu urrats hauek:
-
-1.  **Eraiki Test Exekutagarria:** Ziurtatu test-proiektua eraiki duzula. Visual Studio-k test exekutagarria ere eraikiko du proiektua eraikitzean.
-2.  **Exekutatu Testak:** Ireki Visual Studio IDE eta ireki **Test Explorer** panela, eta exekutatu testak IDEko interfaze integratua erabiliz. Bestela, test exekutagarria `build/debug/tests.exe` helbidean exekutatu dezakezu arazketa bertsioa eraiki baduzu, edo `x64/[proiektuaren izena]/tests.exe` helbidean kaleratze eraikuntza bat baduzu terminalean.
 
 ## Tracker Irteerako Formatua
 
@@ -66,7 +61,14 @@ Tracker irteerako fitxategia CSV (Komaz Banatutako Balioak) formatuan dago. Lerr
 
 | Zutabea    | Datu Mota  | Deskribapena                                                    |
 | ----------- | --------- | -------------------------------------------------------------- |
-| `timestamp` | `float`   | Datu-puntua kapturatu zeneko unea (segundotan).                 |
+| `t` |         `float`   | Datu-puntua kapturatu zeneko unea (segundotan).                 |
 | `x`         | `float`   | Diskoan jarraitutako puntuaren x koordenatua (metrotan).         |
 | `y`         | `float`   | Diskoan jarraitutako puntuaren y koordenatua (metrotan).         |
 | ...         | ...       | (Gehitu beste zutabe batzuk zure aurkikuntzen arabera)          |
+
+## Kodigoaren laburpena
+Lehenik, Tracker programatik ateratako .txt fitxategia irakurtzen da readPoints funtzioan: Funtzio honek tabuladoreekin bereizitako datuak irakurri eta  array batean sartzen ditu eta array horren dimentsioa buetatu egten du (puntu kopurua) dena ondo badoa.
+Gero, computeMaximumAngularVelocity funtzioak puntuak gordetzen dituen array-a nahiz haren puntu kopurua jasotzen ditu, eta puntuen harteko angulu aldaketa denbora aldaketarekin zatituz, abiadura angeluarra kalkulatzen du, eta maximoa bueltatu egiten du.
+Azkenik, freepoints funtzioa puntuak gordetzen zituen array-a askatu egiten du.
+
+
