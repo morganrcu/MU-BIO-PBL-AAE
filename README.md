@@ -54,12 +54,6 @@ Proiektua eta test-exekutagarria eraikitzeko, jarraitu urrats hauek:
     ```
     Non `[balioa]` kalkulatutako balioarekin ordezkatuko den.
 
-## Test Argibideak
-
-Unitate-testak exekutatzeko, jarraitu urrats hauek:
-
-1.  **Eraiki Test Exekutagarria:** Ziurtatu test-proiektua eraiki duzula. Visual Studio-k test exekutagarria ere eraikiko du proiektua eraikitzean.
-2.  **Exekutatu Testak:** Ireki Visual Studio IDE eta ireki **Test Explorer** panela, eta exekutatu testak IDEko interfaze integratua erabiliz. Bestela, test exekutagarria `build/debug/tests.exe` helbidean exekutatu dezakezu arazketa bertsioa eraiki baduzu, edo `x64/[proiektuaren izena]/tests.exe` helbidean kaleratze eraikuntza bat baduzu terminalean.
 
 ## Tracker Irteerako Formatua
 
