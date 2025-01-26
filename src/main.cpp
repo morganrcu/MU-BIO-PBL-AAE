@@ -4,7 +4,7 @@
 #include "pointreader.h"
 #include "angularvelocitycalculator.h"
 
-int main(int argc, char ** argv) {
+int main(int argc, char ** argv) { //adieraziko du abiadura angeluarraren balio maximoa
 	if (argc != 2) {
 		printf("Program to compute maximum angular velocity from a txt file of comma separated values produced by Tracker\n");
 		printf("Usage: %s <filename>\n", argv[0]);
