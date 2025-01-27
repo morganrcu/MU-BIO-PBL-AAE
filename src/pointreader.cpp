@@ -43,4 +43,3 @@ int readPoints(const char* file, point_t** points) {
     fclose(fp);
     return count;
 }
-
