@@ -6,10 +6,12 @@ Proiektu hau 24/25 Ikasturtea Ingeniaritza biomedikako grauda POPBL S1n parte da
 
 ## Taldekideak
 
-*   [1. Taldekidearen Izena] - [GitHub Erabiltzailea]
-*   [2. Taldekidearen Izena] - [GitHub Erabiltzailea]
-*   [3. Taldekidearen Izena] - [GitHub Erabiltzailea]
-*   ... (Gehitu taldekide gehiago behar izanez gero)
+*   [Ainhoa Arnedo Zamorano] - [AinhoaArnedo]
+*   [Jon Ander Aulestiarte Saez de Cerain] - [El Jonan to ciclao]
+*   [Olatz Beitia Akarregi] - [olatzbeitia]
+*   [Ane Güenaga Gonzalez] - [aneguenaga]
+*   [Nahia San Martin Plazaola] - [NahiaSM]
+  
 
 ## Konfigurazio Argibideak
 
@@ -20,7 +22,7 @@ Biltegi hau `vcpkg` eta `libcsv` (CSV fitxategiak irakurtzeko) erabiltzeko aurre
 2.  **Klonatu Biltegia:** Klonatu forkatu duzun biltegia zure ordenagailu lokalera Git bezeroa edo komando-lerroa erabiliz:
 
     ```bash
-    git clone https://github.com/[Zure GitHub Erakundea]/[Zure Biltegiaren Izena].git
+    git clone https://github.com//IBPBL1/Master.git
     ```
 
 3.  **Ez da konfigurazio gehiago behar:** Beharrezkoak diren liburutegiak (`libcsv` ) `vcpkg` erabiliz aurrez konfiguratuta daude. Ez da konfigurazio gehiago behar hirugarren liburutegiak instalatzeko.
@@ -31,27 +33,27 @@ Proiektua eta test-exekutagarria eraikitzeko, jarraitu urrats hauek:
 
 1.  **Ireki proiektua Visual Studio 2022-rekin:** Ireki Visual Studio 2022 eta kargatu proiektuaren soluzioa (`.sln` fitxategia). Proiektua `Visual Studio 2022`-rekin soilik eraiki daiteke.
 2.  **Eraiki proiektua:** Erabili Visual Studio-ko eraikuntza aukerak proiektua konpilatzeko.
-    *   Eraikuntzak exekutagarri bat sortuko du `x64/debug/[proiektuaren izena].exe` helbidean.
-    *   Test-suitea ere konpilatuko da `x64/debug/[proiektuaren izena]-Tests.exe` helbidean.
+    *   Eraikuntzak exekutagarri bat sortuko du `x64/debug/MU-BIO-PBL-AAE.exe` helbidean.
+    *   Test-suitea ere konpilatuko da `x64/debug/MU-BIO-PBL-AAE-Tests.exe` helbidean.
 ## Erabilera Argibideak
 
-1.  **Exekutatu programa:** Programa exekutatzeko, erabili komando hau zure terminalean edo komando-gonbitan, eta ordezkatu `data.csv` zure ibilbide-datuen fitxategiaren bidearekin.
+1.  **Exekutatu programa:** Programa exekutatzeko, erabili komando hau zure terminalean edo komando-gonbitan, eta ordezkatu `Proba6.txt` zure ibilbide-datuen fitxategiaren bidearekin.
 
     ```bash
-     x64/debug/[proiektuaren izena].exe data.csv
+     x64/debug/MU-BIO-PBL-AAE.exe Proba6.txt
     ```
 
-    *   Programak emandako CSV fitxategiko ibilbide-datuak prozesatuko ditu.
+    *   Programak emandako CSV / txt fitxategiko ibilbide-datuak prozesatuko ditu.
     *   Programak kalkulatutako abiadura angeluar maximoa kontsolan bistaratuko du.
 
-2.  **Adibide-Sarrerako Fitxategia:** Ziurtatu zure sarrerako CSV fitxategiak formatu egokia duela. 
+2.  **Adibide-Sarrerako Fitxategia:** Ziurtatu zure sarrerako CSV / txt fitxategiak formatu egokia duela. 
 
 3.  **Irteera:**
     Programak disko birakariaren abiadura angeluar maximoa bistaratuko du. Honelako itxura izango du:
     ```
-    Abiadura angeluar maximoa: [balioa] rad/s
+    Abiadura angeluar maximoa: 21,18 rad/s
     ```
-    Non `[balioa]` kalkulatutako balioarekin ordezkatuko den.
+    Non `21,18 rad/s` kalkulatutako balioarekin ordezkatuko den.
 
 ## Test Argibideak
 
@@ -66,7 +68,6 @@ Tracker irteerako fitxategia CSV (Komaz Banatutako Balioak) formatuan dago. Lerr
 
 | Zutabea    | Datu Mota  | Deskribapena                                                    |
 | ----------- | --------- | -------------------------------------------------------------- |
-| `timestamp` | `float`   | Datu-puntua kapturatu zeneko unea (segundotan).                 |
-| `x`         | `float`   | Diskoan jarraitutako puntuaren x koordenatua (metrotan).         |
-| `y`         | `float`   | Diskoan jarraitutako puntuaren y koordenatua (metrotan).         |
-| ...         | ...       | (Gehitu beste zutabe batzuk zure aurkikuntzen arabera)          |
+| `time`      | `Double`   | Datu-puntua kapturatu zeneko unea (segundotan).                 |
+| `x`         | `Double`   | Diskoan jarraitutako puntuaren x koordenatua (metrotan).         |
+| `y`         | `Double`   | Diskoan jarraitutako puntuaren y koordenatua (metrotan).         |
