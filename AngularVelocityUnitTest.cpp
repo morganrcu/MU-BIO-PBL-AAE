@@ -124,9 +124,9 @@ namespace UnitTest //namespace bat definitzen du. {} barruko eduki guztia namesp
                 {0.0, NAN},
                 {1.0, 1.0}
             };
-            float result = computeMaximumAngularVelocity(points, 2);
-            Logger::WriteMessage("In TestErrorCaseNonNumericData");
-            Assert::IsTrue(isnan(result)); // Velocidad angular máxima esperada para datos no numéricos
+            float result = computeMaximumAngularVelocity(points, 2); //computeMaxixumAngularVelocity funtzioari deitzen dio, puntu-kopurua bi delarik.
+            Logger::WriteMessage("In TestErrorCaseNonNumericData"); //Proben erregistroan mezu bat idazten du.
+            Assert::IsTrue(isnan(result)); // Emaitzak isnan izan behar du, funtzioak datu ez numerikoak jaso dituelako. 
         }
     };
 
