@@ -6,10 +6,10 @@ Proiektu hau 24/25 Ikasturtea Ingeniaritza biomedikako grauda POPBL S1n parte da
 
 ## Taldekideak
 
-*   [1. Taldekidearen Izena] - [GitHub Erabiltzailea]
-*   [2. Taldekidearen Izena] - [GitHub Erabiltzailea]
-*   [3. Taldekidearen Izena] - [GitHub Erabiltzailea]
-*   ... (Gehitu taldekide gehiago behar izanez gero)
+Mikel J. Otaegui Bengochea - Mikel-Otaegui
+Elene Irazola Gandarias - Elene Irazola
+Nahia Blazquez Zelaia - NahiaBlazquez
+Haizea Zabala Muruamendiaraz - Haizeazm
 
 ## Konfigurazio Argibideak
 
