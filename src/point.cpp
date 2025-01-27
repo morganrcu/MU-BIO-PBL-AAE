@@ -1,4 +1,8 @@
 #include "point.h"
+#include <stddef.h> 
+#include <stdlib.h>
+
+// Implementación de la función freePoints
 void freePoints(point_t** points) {
-	//TODO 2. Free the memory allocated for the point_t array
+    // Código para liberar la memoria de los puntos
 }
