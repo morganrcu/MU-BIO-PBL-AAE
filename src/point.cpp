@@ -2,7 +2,7 @@
 #include <stddef.h> 
 #include <stdlib.h>
 
-// Implementación de la función freePoints
+// Implementaciï¿½n de la funciï¿½n freePoints
 void freePoints(point_t** points) {
-    // Código para liberar la memoria de los puntos
+    // Cï¿½digo para liberar la memoria de los puntos
 }
