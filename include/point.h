@@ -2,7 +2,7 @@
 #include <stdlib.h>
 typedef struct point_t {
 	double t;     // Tiempo en segundos
-	double theta; // Ángulo en radianes
+	double theta; // ï¿½ngulo en radianes
 	double x;
 	double y;
 	double v;
